@@ -1,0 +1,98 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f9;
+  color: #1a1a1a;
+}
+
+.app-shell {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+nav.app-nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+nav.app-nav a {
+  text-decoration: none;
+  color: #2540d1;
+}
+
+nav.app-nav button {
+  margin-left: auto;
+}
+
+.error-box {
+  background: #fdeaea;
+  border: 1px solid #e5a3a3;
+  color: #7a1f1f;
+  padding: 10px 12px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+form.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 480px;
+}
+
+form.stack label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+}
+
+input,
+textarea,
+select {
+  padding: 8px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+button {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.post-card h3 {
+  margin: 0 0 6px 0;
+}
+
+.comment {
+  border-top: 1px solid #eee;
+  padding: 8px 0;
+}
+
+.muted {
+  color: #666;
+  font-size: 13px;
+}
