@@ -36,7 +36,7 @@ async function request(path, { method = 'GET', body, token } = {}) {
       headers,
       body: body !== undefined ? JSON.stringify(body) : undefined,
     })
-  } catch (networkErr) {
+  } catch {
     throw new ApiError(
       {
         error: 'NetworkError',
